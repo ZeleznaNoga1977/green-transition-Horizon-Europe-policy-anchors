@@ -1,0 +1,252 @@
+[
+  {
+    "type": "target",
+    "exact_anchor": "world’s first climate-neutral continent by 2050",
+    "keyword": "climate neutrality 2050",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Deploy [tech/activity] that cuts GHGs, contributing to 2050 neutrality.",
+    "suggested_KPI_hook": "tCO₂e reduced/year; % vs baseline",
+    "risk/mitigation": "Tech not mature → phased pilots",
+    "source": "fileciteturn3file7L72-L76"
+  },
+  {
+    "type": "commitment",
+    "exact_anchor": "At least 35%… spent on climate action",
+    "keyword": "35% climate spending",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Flag climate relevance of WPs/deliverables.",
+    "suggested_KPI_hook": "% budget climate-tagged",
+    "risk/mitigation": "Mis-tagging → climate tagging review",
+    "source": "fileciteturn3file7L74-L76"
+  },
+  {
+    "type": "commitment",
+    "exact_anchor": "10%… on biodiversity action",
+    "keyword": "10% biodiversity spend",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Include biodiversity outputs/KPIs in pilots.",
+    "suggested_KPI_hook": "ha restored; species/richness index",
+    "risk/mitigation": "Limited sites → select biodiversity-rich pilots",
+    "source": "fileciteturn3file7L74-L76"
+  },
+  {
+    "type": "target",
+    "exact_anchor": "reduce net greenhouse-gas emissions by 55% by 2030",
+    "keyword": "-55% by 2030",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Quantify contribution of measures to 2030 target.",
+    "suggested_KPI_hook": "% GHG reduction by 2030",
+    "risk/mitigation": "Rebound effects → demand-side measures",
+    "source": "fileciteturn3file2L31-L33"
+  },
+  {
+    "type": "focus",
+    "exact_anchor": "tackle biodiversity loss and pollution",
+    "keyword": "biodiversity & zero-pollution",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Add outputs on habitat quality and pollutant cuts.",
+    "suggested_KPI_hook": "NOx/PO₄/TFI reduction",
+    "risk/mitigation": "Leakage → monitoring & enforcement",
+    "source": "fileciteturn3file7L72-L75"
+  },
+  {
+    "type": "SSH/behaviour",
+    "exact_anchor": "behavioural and structural change at societal level",
+    "keyword": "behaviour change",
+    "level": "cross-cutting",
+    "how_to_use_in_logic_map": "Design co-creation & nudges to shift practices.",
+    "suggested_KPI_hook": "adoption rate; practice change index",
+    "risk/mitigation": "Low uptake → peer champions",
+    "source": "fileciteturn3file8L1-L6"
+  },
+  {
+    "type": "SSH/governance",
+    "exact_anchor": "transformational decision-making",
+    "keyword": "decision governance",
+    "level": "cross-cutting",
+    "how_to_use_in_logic_map": "Build decision-support tools & protocols.",
+    "suggested_KPI_hook": "decision lead-time ↓",
+    "risk/mitigation": "Institutional inertia → governance pilots",
+    "source": "fileciteturn3file8L1-L3"
+  },
+  {
+    "type": "SSH/society",
+    "exact_anchor": "social acceptance",
+    "keyword": "public acceptance",
+    "level": "cross-cutting",
+    "how_to_use_in_logic_map": "Stakeholder engagement & citizen science.",
+    "suggested_KPI_hook": "trust/satisfaction score",
+    "risk/mitigation": "NIMBY → early dialogues",
+    "source": "fileciteturn3file8L1-L6"
+  },
+  {
+    "type": "enabler",
+    "exact_anchor": "environmental observation… digital tools for better environmental management, policy and decision making",
+    "keyword": "EO & digital tools",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Integrate EO/data platforms into pilots.",
+    "suggested_KPI_hook": "% datasets FAIR; decisions using tool",
+    "risk/mitigation": "Data gaps → EO + in-situ fusion",
+    "source": "fileciteturn3file2L19-L23"
+  },
+  {
+    "type": "approach",
+    "exact_anchor": "nature-based solutions",
+    "keyword": "NbS",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Include NbS pilots alongside tech fixes.",
+    "suggested_KPI_hook": "NbS area; avoided damage €",
+    "risk/mitigation": "Maladaptation → NbS screening",
+    "source": "fileciteturn3file2L14-L16"
+  },
+  {
+    "type": "workforce",
+    "exact_anchor": "reskilling and upskilling of the workforce",
+    "keyword": "skills for transition",
+    "level": "cross-cutting",
+    "how_to_use_in_logic_map": "Add training WP & certification.",
+    "suggested_KPI_hook": "# trained; skills assessment",
+    "risk/mitigation": "Skills gap → micro-credentials",
+    "source": "fileciteturn3file2L25-L28"
+  },
+  {
+    "type": "cross-initiative",
+    "exact_anchor": "New European Bauhaus… increase circularity and climate neutrality",
+    "keyword": "NEB circular built environment",
+    "level": "synergy",
+    "how_to_use_in_logic_map": "Include NEB-aligned demo in built environment.",
+    "suggested_KPI_hook": "% recycled content; embodied CO₂",
+    "risk/mitigation": "Fragmented actors → NEB community links",
+    "source": "fileciteturn3file2L37-L41"
+  },
+  {
+    "type": "expected impact",
+    "exact_anchor": "global leadership in climate-neutral, circular and digitised industrial and digital value chains",
+    "keyword": "leadership in green/circular value chains",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Position results as scaling EU value chains.",
+    "suggested_KPI_hook": "# EU suppliers onboarded",
+    "risk/mitigation": "External dependencies → EU suppliers list",
+    "source": "fileciteturn3file9L30-L33"
+  },
+  {
+    "type": "cluster driver",
+    "exact_anchor": "fair transition to climate neutrality… by 2050",
+    "keyword": "fair transition (Cluster 5)",
+    "level": "cluster",
+    "how_to_use_in_logic_map": "Add affordability & equity measures.",
+    "suggested_KPI_hook": "energy poverty ↓; access KPIs",
+    "risk/mitigation": "Unequal impacts → Just-Transition actions",
+    "source": "fileciteturn3file15L8-L12"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "European Climate Law",
+    "keyword": "Climate Law",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Tie targets to legal framework.",
+    "suggested_KPI_hook": "compliance statement",
+    "risk/mitigation": "Policy shifts → periodic check",
+    "source": "fileciteturn3file15L15-L18"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "Fit for 55 package",
+    "keyword": "Fit for 55",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Map outputs to package measures.",
+    "suggested_KPI_hook": "sectoral % cuts",
+    "risk/mitigation": "Regulatory delay → scenario variants",
+    "source": "fileciteturn3file15L16-L19"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "REPowerEU",
+    "keyword": "REPowerEU",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Show fossil displacement/efficiency gains.",
+    "suggested_KPI_hook": "MWh saved; imports avoided",
+    "risk/mitigation": "Volatility → diversified tech mix",
+    "source": "fileciteturn3file15L16-L19"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "EU Strategy on Adaptation to Climate Change",
+    "keyword": "adaptation strategy",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Add risk/vulnerability & adaptation KPIs.",
+    "suggested_KPI_hook": "avoided losses €; resilience index",
+    "risk/mitigation": "Maladaptation → stress-tests",
+    "source": "fileciteturn3file15L15-L19"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "Circular Economy action plan",
+    "keyword": "circular economy",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Include reuse/repair/recycling outputs.",
+    "suggested_KPI_hook": "circularity rate; waste ↓",
+    "risk/mitigation": "Downstream leakage → take-back schemes",
+    "source": "fileciteturn3file15L18-L19"
+  },
+  {
+    "type": "policy hook",
+    "exact_anchor": "zero-pollution action plan",
+    "keyword": "zero pollution",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Quantify pollutant reductions.",
+    "suggested_KPI_hook": "pollutant ppm ↓",
+    "risk/mitigation": "Substitution risks → safer alt.",
+    "source": "fileciteturn3file15L18-L19"
+  },
+  {
+    "type": "industrial",
+    "exact_anchor": "Net-Zero Industry Act",
+    "keyword": "NZIA",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Show scaling pathway for net-zero tech.",
+    "suggested_KPI_hook": "units/year; € invested",
+    "risk/mitigation": "Supply bottlenecks → supplier MoUs",
+    "source": "fileciteturn3file15L19-L20"
+  },
+  {
+    "type": "materials",
+    "exact_anchor": "Critical Raw Materials Act",
+    "keyword": "CRMA",
+    "level": "policy",
+    "how_to_use_in_logic_map": "Plan for recycled/alternative materials.",
+    "suggested_KPI_hook": "% recycled inputs",
+    "risk/mitigation": "CRMs scarcity → design-for-recycling",
+    "source": "fileciteturn3file15L19-L20"
+  },
+  {
+    "type": "synergy",
+    "exact_anchor": "LIFE programme… bonus points… clean energy transition & climate change",
+    "keyword": "LIFE downstream",
+    "level": "synergy",
+    "how_to_use_in_logic_map": "Outline post-HE scaling via LIFE.",
+    "suggested_KPI_hook": "# LIFE proposals filed/won",
+    "risk/mitigation": "No follow-on → early LIFE liaison",
+    "source": "fileciteturn3file11L44-L52"
+  },
+  {
+    "type": "synergy",
+    "exact_anchor": "Connecting Europe Facility… roll-out… transport and energy",
+    "keyword": "CEF deployment",
+    "level": "synergy",
+    "how_to_use_in_logic_map": "Plan infra deployment path with CEF.",
+    "suggested_KPI_hook": "# CEF assets deployed",
+    "risk/mitigation": "Infra gaps → CEF alignment workshops",
+    "source": "fileciteturn3file10L1-L11"
+  },
+  {
+    "type": "instrument",
+    "exact_anchor": "EU Missions… green and digital transitions… public support and acceptance",
+    "keyword": "missions & acceptance",
+    "level": "programme",
+    "how_to_use_in_logic_map": "Use Mission framing + comms plan.",
+    "suggested_KPI_hook": "reach/awareness KPIs",
+    "risk/mitigation": "Low acceptance → mission comms",
+    "source": "fileciteturn3file0L1-L6"
+  }
+]
