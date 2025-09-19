@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Green Transition Anchors — Table</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 24px; }
+    h1 { margin: 0 0 12px; }
+    .note { color: #555; margin: 0 0 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 10px; vertical-align: top; }
+    thead th { background: #f6f6f6; text-align: left; }
+    code { background: #f3f3f3; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Green Transition Anchors — Table</h1>
+  <div class="note">
+    Data source: <code>green_transition_anchors_json_v_1.json</code>
+  </div>
+
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Exact anchor</th>
+        <th>Keyword</th>
+        <th>Level</th>
+        <th>Use in Logic Map (1-line)</th>
+        <th>Suggested KPI hook</th>
+        <th>Risk / Mitigation</th>
+        <th>Source</th>
+      </tr>
+    </thead>
+    <tbody><tr><td colspan="8">Loading…</td></tr></tbody>
+  </table>
+
+  <script>
+    async function loadTable() {
+      try {
+        const res = await fetch('./green_transition_anchors_json_v_1.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        const rows = Array.isArray(data) ? data : [];
+        const tbody = document.querySelector('#tbl tbody');
+        tbody.innerHTML = '';
+
+        rows.forEach(row => {
+          const tr = document.createElement('tr');
+
+          function td(text) {
+            const cell = document.createElement('td');
+            cell.textContent = text ?? '';
+            return cell;
+          }
+
+          tr.appendChild(td(row.type));
+          tr.appendChild(td(row.exact_anchor));
+          tr.appendChild(td(row.keyword));
+          tr.appendChild(td(row.level));
+          tr.appendChild(td(row.how_to_use_in_logic_map));
+          tr.appendChild(td(row.suggested_KPI_hook));
+
+          // Key with a slash: must use bracket notation
+          tr.appendChild(td(row["risk/mitigation"]));
+
+          // Source: turn into link only if it looks like a URL
+          const srcCell = document.createElement('td');
+          const src = row.source ?? '';
+          if (/^https?:\/\//i.test(src)) {
+            const a = document.createElement('a');
+            a.href = src; a.textContent = src; a.target = '_blank'; a.rel = 'noopener';
+            srcCell.appendChild(a);
+          } else {
+            srcCell.textContent = src;
+          }
+          tr.appendChild(srcCell);
+
+          tbody.appendChild(tr);
+        });
+
+        if (!rows.length) {
+          const tr = document.createElement('tr');
+          const cell = document.createElement('td');
+          cell.colSpan = 8;
+          cell.textContent = 'No rows found in JSON.';
+          tr.appendChild(cell);
+          tbody.appendChild(tr);
+        }
+      } catch (err) {
+        const tbody = document.querySelector('#tbl tbody');
+        tbody.innerHTML = `<tr><td colspan="8">Failed to load JSON (${err.message}).</td></tr>`;
+      }
+    }
+    loadTable();
+  </script>
+</body>
+</html>
